@@ -1,0 +1,115 @@
+/* header */
+.header {
+    /* background-color: blue; */
+    width: 1366px;
+    height: 324px;
+    background-image: url('../photos/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.opacity {
+    width: 1366px;
+    height: 324px;
+    background-color: black;
+    opacity: 60%;
+}
+.navigation-wrapper {
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+    width: 1089px;
+    height: 20px;
+    margin: 0 auto;
+}
+.ul {
+    display: flex;
+}
+.li {
+    margin-right: 50px;
+}
+.home {
+    color: blue;
+}
+.navigation-wrapper a {
+    /* color: white; */
+    text-transform: uppercase;
+}
+.home {
+    color: black;
+}
+.left-block {
+    width: 173px;
+    margin-top: 145px;
+    margin-left: 139px;
+}
+.left-block h1 {
+    color: white;
+    font-size: 41px;
+}
+.divider {
+    width: 2px;
+    height: 16px;
+    background-color: white;
+    margin: 0px 16px;
+}
+.aboutus {
+    display: flex;
+    margin-top: 18px;
+}
+.aboutus a {
+    font-size: 14px;
+    color: white;
+}
+a {
+    color: white;
+}
+.home {
+    color: blue;
+}
+
+/* section1 */
+.div-wrapper {
+  display: flex;
+  width: 1088px;
+  /* height: 461px; */
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 80px;
+  align-items: center;
+
+}
+.left-div {
+    width: 444px;
+    height: 388px;
+    background-color: gray;
+}
+.right-div {
+    width: 536px;
+    height: 461px;
+    background-color: red;
+    margin-left: 108px;
+}
+.top-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.top-img {
+    width: 260px;
+    height: 185px;
+    background-image: url('../photos/girl\ swimming.png');
+}
+.top-img2 {
+    width: 260px;
+    height: 185px;
+    background-image: url('../photos/kibe.jpg');
+    background-position: center;
+}
+.bot-img {
+    width: 536px;
+    height: 260px;
+    background-image: url('../photos/lower.png');
+    margin-top: 16px;
+}
