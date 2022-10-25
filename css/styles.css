@@ -1,6 +1,6 @@
 /* header */
+
 .header {
-    /* background-color: blue; */
     width: 1366px;
     height: 324px;
     background-image: url('../photos/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg');
@@ -34,7 +34,6 @@
     color: blue;
 }
 .navigation-wrapper a {
-    /* color: white; */
     text-transform: uppercase;
 }
 .home {
@@ -70,26 +69,52 @@ a {
     color: blue;
 }
 
+
 /* section1 */
+
 .div-wrapper {
   display: flex;
   width: 1088px;
-  /* height: 461px; */
-  background-color: black;
   margin: 0 auto;
   margin-top: 80px;
   align-items: center;
 
 }
+
+
 .left-div {
     width: 444px;
     height: 388px;
-    background-color: gray;
 }
+.left-div a {
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 14px;
+}
+.left-paragraph h3 {
+    font-size: 42px; 
+    margin-bottom: 14px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.readmore {
+    display: flex;
+    width: 184px;
+    height: 50px;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+.readmore img{
+    margin-left: 20px;
+}
+
+
 .right-div {
     width: 536px;
     height: 461px;
-    background-color: red;
     margin-left: 108px;
 }
 .top-pic{
@@ -112,4 +137,237 @@ a {
     height: 260px;
     background-image: url('../photos/lower.png');
     margin-top: 16px;
+}
+
+/* section2 */
+.section2 {
+    justify-content: center;
+    display: flex;
+    width: 1366px;
+    height: 612px;
+    background-image: url('../photos/bg-img.png');
+    margin: 0 auto;
+    margin-top: 90px;
+    align-items: center;
+    background-size: cover;
+    align-items: center;
+}
+.wrapper {
+    width: 1088px;
+    /* height: 430px; */
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.satauri{
+    width: 332px;
+    height: 112px;
+}
+.satauri a {
+    font-size: 14px;
+    color: #5863F8;
+}
+.satauri h3 {
+    margin-top: 10px;
+    font-size: 42px;
+    color: white;
+}
+/* .box p{
+    height: 62px;
+    width: 221px;
+} */
+
+.box {
+    /* display: flex; */
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    /* align-items: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box h3 {
+    width: 142px;
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.box p {
+    width: 221px;
+    font-size: 14px;
+    color: #B1B1B1;
+    text-align: center;
+}
+.box img{
+    align-self: center;
+    width: 32.73px;
+    height: 32.73px;
+}
+.round {
+    display: flex;
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50px;
+    justify-content: center;
+}
+.round img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round p {
+    text-align: center;
+}
+.photo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+
+
+/* section3 */
+.marius{
+    display: flex;
+}
+.marius p{
+    margin-left: 19px;
+    margin-top: 10px;
+    
+}
+.sec3 {
+    background-color: #F8F8F8;
+    width: 1366px;
+    margin: 0 auto;
+}
+.right-div-sec3 {
+    margin-left: 212px;    
+}
+.div-wrapper-sec3 {
+    display: flex;
+    /* width: 1227px; */
+    margin: 0 auto;    
+    align-items: center;
+    justify-content: flex-end;    
+}
+.sec-3paragraph {
+    margin-top: 20px;
+    width: 352px;
+    height: 62px;
+}
+/* .sec-3img::after {
+    content: "Marius Ciocirlan";
+} */
+
+
+/* section4 */
+.section4{
+    width: 1366px;
+    margin: 0 auto;
+}
+.container-wrapper {
+    max-width: 1227px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.text-wrapper p{
+   width: 475px;
+   font-size: 42px;
+   
+}
+.text-wrapepr h3 {
+    font-size: 14px;
+    color: blue;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 54px;
+    width: 1366px;
+}
+.photos {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.black {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1366px;
+    height: 395px;
+    background-color: #121212;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.sec-wrapper {
+    line-height: 20px;
+    color: white;
+    display: flex;
+    width: 1008px;
+    /* height: 190px; */
+}
+.zeta-wraper p {   
+    color: #B1B1B1;
+    font-size: 14px; 
+    width: 260px;
+    height: 83px;
+    text-align: start;
+}
+.soc-icons {
+    display: flex;
+    width: 130px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.zeta-wraper h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.useful-links {
+    color: blue;
+    font-size: 14px;
+    width: 100px;
+    height: 154px;
+    margin-left: 200px;
+}
+.useful-links h4{
+    color: white;
+    font-size: 18px;
+}
+.privacy {
+    color: blue;
+    font-size: 14px;
+    width: 67px;
+    height: 154px;
+    margin-left: 94px;
+}
+.privacy h4{
+    color: white;
+    font-size: 18px;
+}
+
+.contact {
+    width: 178px;
+    height: 144px;
+    margin-left: 117px;
+}
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
 }
