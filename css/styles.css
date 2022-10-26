@@ -15,6 +15,8 @@
     opacity: 60%;
 }
 .navigation-wrapper {
+    font-family:'Poppins', sans-serif;
+    font-weight: 600px;
     padding-top: 30px;
     display: flex;
     align-content: center;
@@ -23,6 +25,10 @@
     width: 1089px;
     height: 20px;
     margin: 0 auto;
+}
+.logo {
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
 }
 .ul {
     display: flex;
@@ -40,13 +46,16 @@
     color: black;
 }
 .left-block {
-    width: 173px;
+    width: 190px;
     margin-top: 145px;
     margin-left: 139px;
 }
+
 .left-block h1 {
+    font-family:'Poppins', sans-serif;
+    /* font-weight: bold; */
     color: white;
-    font-size: 41px;
+    font-size: 42px;
 }
 .divider {
     width: 2px;
@@ -57,6 +66,8 @@
 .aboutus {
     display: flex;
     margin-top: 18px;
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
 }
 .aboutus a {
     font-size: 14px;
@@ -81,21 +92,26 @@ a {
 
 }
 
-
 .left-div {
     width: 444px;
     height: 388px;
+
 }
 .left-div a {
     margin-bottom: 10px;
     color: blue;
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
 .left-paragraph h3 {
     font-size: 42px; 
     margin-bottom: 14px;
     margin-top: 10px;
     font-family: 'Poppins', sans-serif;
+}
+.left-paragraph p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 .readmore {
     display: flex;
@@ -154,43 +170,38 @@ a {
 }
 .wrapper {
     width: 1088px;
-    /* height: 430px; */
-    /* background-color: black; */
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 .satauri{
-    width: 332px;
+    margin-bottom: 38px;
+    width: 350px;
     height: 112px;
 }
 .satauri a {
+    font-family:'Poppins', sans-serif;
     font-size: 14px;
     color: #5863F8;
 }
 .satauri h3 {
+    font-family:'Poppins', sans-serif;
     margin-top: 10px;
     font-size: 42px;
     color: white;
 }
-/* .box p{
-    height: 62px;
-    width: 221px;
-} */
-
 .box {
-    /* display: flex; */
+    font-family: 'Poppins', sans-serif;
     width: 260px;
     height: 260px;
     background-color: white;
-    /* align-items: column; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .box h3 {
-    width: 142px;
+    width: 200px;
     font-size: 18px;
     color: black;
     margin-top: 15px;
@@ -231,17 +242,18 @@ a {
     margin-top: 24px;
 }
 
-
-
-
 /* section3 */
 .marius{
     display: flex;
 }
 .marius p{
+    font-family:'Poppins', sans-serif;
     margin-left: 19px;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
+}
+.left-div a{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
 }
 .sec3 {
     background-color: #F8F8F8;
@@ -253,7 +265,6 @@ a {
 }
 .div-wrapper-sec3 {
     display: flex;
-    /* width: 1227px; */
     margin: 0 auto;    
     align-items: center;
     justify-content: flex-end;    
@@ -263,9 +274,6 @@ a {
     width: 352px;
     height: 62px;
 }
-/* .sec-3img::after {
-    content: "Marius Ciocirlan";
-} */
 
 
 /* section4 */
@@ -280,7 +288,8 @@ a {
     margin-top: 90px;
 }
 .text-wrapper p{
-   width: 475px;
+   font-family:'Poppins', sans-serif;
+   width: 550px;
    font-size: 42px;
    
 }
@@ -297,12 +306,15 @@ a {
     width: 1366px;
 }
 .photos {
+    font-family:'Poppins', sans-serif;
     color: blue;
     margin-bottom: 10px;
 }
 
 /* footer */
-
+.footer{
+    font-family:'Poppins', sans-serif;
+}
 .black {
     display: flex;
     flex-wrap: wrap;
@@ -314,11 +326,11 @@ a {
     align-items: center;
 }
 .sec-wrapper {
+    display: flex;
     line-height: 20px;
     color: white;
     display: flex;
     width: 1008px;
-    /* height: 190px; */
 }
 .zeta-wraper p {   
     color: #B1B1B1;
