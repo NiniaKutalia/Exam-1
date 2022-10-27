@@ -350,6 +350,7 @@ a {
     margin-bottom: 24px;
 }
 .useful-links {
+    line-height: 30px;
     color: blue;
     font-size: 14px;
     width: 100px;
@@ -361,6 +362,7 @@ a {
     font-size: 18px;
 }
 .privacy {
+    line-height: 30px;
     color: blue;
     font-size: 14px;
     width: 67px;
@@ -373,13 +375,29 @@ a {
 }
 
 .contact {
+    line-height: 30px;
     width: 178px;
     height: 144px;
     margin-left: 117px;
 }
 .copyright {
-    color: white;
+    color: white;    
+}
+.mail {
     display: flex;
-    justify-content: flex-start;
-    padding-left: 10px;
+    align-items: center;
+    color: #5863F8;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    color: #5863F8;
+}
+.pin {
+    display: flex;
+    align-items: center;
+    color: #5863F8;
+}
+.icon {
+    margin-right: 20px;
 }
