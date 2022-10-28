@@ -1,15 +1,18 @@
 /* header */
 
 .header {
-    width: 1366px;
-    height: 324px;
+    max-width:1366px;
+    width: 100%;
+    /* height: 324px; */
     background-image: url('../photos/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
 }
 .opacity {
-    width: 1366px;
+    /* max-width: 1366; */
+    max-width:1366px;
+    width: 100%;
     height: 324px;
     background-color: black;
     opacity: 60%;
@@ -21,8 +24,8 @@
     display: flex;
     align-content: center;
     justify-content: space-between;
-    /* justify-content: center; */
-    width: 1089px;
+    max-width: 1089px;
+    width: 100%;
     height: 20px;
     margin: 0 auto;
 }
@@ -46,19 +49,20 @@
     color: black;
 }
 .left-block {
-    width: 190px;
+    max-width: 190px;
+    width: 100%;
     margin-top: 145px;
     margin-left: 139px;
 }
 
 .left-block h1 {
     font-family:'Poppins', sans-serif;
-    /* font-weight: bold; */
     color: white;
     font-size: 42px;
 }
 .divider {
-    width: 2px;
+    max-width: 2px;
+    width: 100%;
     height: 16px;
     background-color: white;
     margin: 0px 16px;
@@ -85,7 +89,8 @@ a {
 
 .div-wrapper {
   display: flex;
-  width: 1088px;
+  max-width: 1088px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 80px;
   align-items: center;
@@ -93,8 +98,9 @@ a {
 }
 
 .left-div {
-    width: 444px;
-    height: 388px;
+    max-width: 444px;
+    width: 100%;
+    /* height: 388px; */
 
 }
 .left-div a {
@@ -115,7 +121,8 @@ a {
 }
 .readmore {
     display: flex;
-    width: 184px;
+    max-width: 184px;
+    width: 100%;
     height: 50px;
     background-color: #5863F8;
     justify-content: center;
@@ -129,27 +136,33 @@ a {
 
 
 .right-div {
-    width: 536px;
-    height: 461px;
+    max-width: 536px;
+    width: 100%;
+    /* height: 461px; */
     margin-left: 108px;
 }
 .top-pic{
+    max-width: 536px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .top-img {
-    width: 260px;
-    height: 185px;
+    max-width: 260px;
+    width: 100%;
+    /* height: 185px; */
     background-image: url('../photos/girl\ swimming.png');
 }
 .top-img2 {
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
     height: 185px;
     background-image: url('../photos/kibe.jpg');
     background-position: center;
 }
 .bot-img {
-    width: 536px;
+    max-width: 536px;
+    width: 100%;
     height: 260px;
     background-image: url('../photos/lower.png');
     margin-top: 16px;
@@ -159,8 +172,10 @@ a {
 .section2 {
     justify-content: center;
     display: flex;
-    width: 1366px;
-    height: 612px;
+    max-width: 1366px;
+    width: 100%;
+    height: 100%;
+    min-height: 612px;
     background-image: url('../photos/bg-img.png');
     margin: 0 auto;
     margin-top: 90px;
@@ -169,14 +184,16 @@ a {
     align-items: center;
 }
 .wrapper {
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 .satauri{
     margin-bottom: 38px;
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: 112px;
 }
 .satauri a {
@@ -192,8 +209,10 @@ a {
 }
 .box {
     font-family: 'Poppins', sans-serif;
-    width: 260px;
-    height: 260px;
+    max-width: 260px;
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -201,7 +220,8 @@ a {
     flex-direction: column;
 }
 .box h3 {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     font-size: 18px;
     color: black;
     margin-top: 15px;
@@ -209,15 +229,18 @@ a {
     text-align: center;
 }
 .box p {
-    width: 221px;
+    max-width: 221px;
+    width: 100%;
     font-size: 14px;
     color: #B1B1B1;
     text-align: center;
 }
 .box img{
     align-self: center;
-    width: 32.73px;
-    height: 32.73px;
+    max-width: 32.73px;
+    width: 100%;
+    /* height: 100%;
+    min-height: 32.73px; */
 }
 .round {
     display: flex;
@@ -257,7 +280,8 @@ a {
 }
 .sec3 {
     background-color: #F8F8F8;
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
     margin: 0 auto;
 }
 .right-div-sec3 {
@@ -271,14 +295,16 @@ a {
 }
 .sec-3paragraph {
     margin-top: 20px;
-    width: 352px;
-    height: 62px;
+    max-width: 352px;
+    width: 100%;
+    /* height: 62px; */
 }
 
 
 /* section4 */
 .section4{
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
     margin: 0 auto;
 }
 .container-wrapper {
@@ -303,7 +329,8 @@ a {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 54px;
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
 }
 .photos {
     font-family:'Poppins', sans-serif;
@@ -313,9 +340,13 @@ a {
 
 /* footer */
 .footer{
+    background-color: black;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
     font-family:'Poppins', sans-serif;
 }
-.black {
+/* .black {
     display: flex;
     flex-wrap: wrap;
     width: 1366px;
@@ -324,24 +355,28 @@ a {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-}
+} */
 .sec-wrapper {
     display: flex;
     line-height: 20px;
     color: white;
     display: flex;
-    width: 1008px;
+    max-width: 1012px;
+    width: 100%;
+    padding: 92px;
 }
 .zeta-wraper p {   
     color: #B1B1B1;
     font-size: 14px; 
+    /* max-width: 260px; */
     width: 260px;
-    height: 83px;
+    /* height: 83px; */
     text-align: start;
 }
 .soc-icons {
     display: flex;
-    width: 130px;
+    max-width: 130px;
+    width: 100%;
     margin-top: 20px;
     justify-content: space-between;
 }
@@ -353,9 +388,11 @@ a {
     line-height: 30px;
     color: blue;
     font-size: 14px;
-    width: 100px;
-    height: 154px;
+    /* max-width: 100px; */
+    width: 150px;
+    /* height: 154px; */
     margin-left: 200px;
+    text-align: start;
 }
 .useful-links h4{
     color: white;
@@ -365,8 +402,8 @@ a {
     line-height: 30px;
     color: blue;
     font-size: 14px;
-    width: 67px;
-    height: 154px;
+    /* max-width: 67px; */
+    width: 167px;
     margin-left: 94px;
 }
 .privacy h4{
@@ -376,12 +413,17 @@ a {
 
 .contact {
     line-height: 30px;
+    /* max-width: 178px; */
     width: 178px;
-    height: 144px;
     margin-left: 117px;
 }
 .copyright {
-    color: white;    
+    margin-left: 40px;
+    color: white;
+    max-width: 700px;
+    width: 100%;
+    /* margin: 0 auto;  */
+    margin-bottom: 43px;   
 }
 .mail {
     display: flex;
