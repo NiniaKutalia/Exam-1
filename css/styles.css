@@ -340,7 +340,8 @@ a {
 
 /* footer */
 .footer {
-    width: 1366px;
+    max-width: 1366px;
+    width: 100%;
     background-color: #121212;
     display: flex;
     justify-content: center;
@@ -348,7 +349,8 @@ a {
     margin: 0 auto;
   }
   .footer-wraper {
-    width: 1012px;
+    max-width: 1012px;
+    width: 1100%;
     height: 272px;
     display: flex;
     justify-content: center;
@@ -357,7 +359,8 @@ a {
     flex-wrap: wrap;
   }
   .footer-div-1 {
-    width: 260px;
+    max-width: 260px;
+    width: 100%;
     margin-right: 200px;
   }
   .footer-div-1 h2 {
@@ -377,7 +380,8 @@ a {
   
   .useful-links {
     font-family:'Poppins', sans-serif;
-    width: 94px;
+    max-width: 94px;
+    width: 100%;
   }
   .useful-links h3 {
     color: #FFFFFF;
@@ -392,7 +396,8 @@ a {
   
   .privacy {
     font-family:'Poppins', sans-serif;
-    width: 67px;
+    max-width: 67px;
+    width: 100%;
     margin-left: 94px;
   }
   .privacy h3 {
@@ -405,11 +410,11 @@ a {
     font-size: 14px;
     padding-bottom: 11px;
   }
-  
-  
+    
   .contact {
     font-family:'Poppins', sans-serif;
-    width: 178px;
+    max-width: 178px;
+    width: 100%;
     margin-left: 117px;
   }
   .contact h3 {
@@ -419,17 +424,18 @@ a {
   }
   .contact i {
     color: #5863F8;
-    width: 16.04px;
+    max-width: 16px;
+    width: 1100%;
     height: 12.83px;
   }
   .contact a {
     font-size: 14px;
     color: #FFFFFF;
   }
-  .finaly-li {
+  .contact-li {
     padding-bottom: 21px;
   }
-  .finaly-li a {
+  .contact-li a {
     padding-left: 14px;
   }
   .copyright {
@@ -446,3 +452,6 @@ a {
     font-family:'Poppins', sans-serif;
     color: #5863F8;
   }
+  /* .mail {
+    justify-content: center;
+  } */
